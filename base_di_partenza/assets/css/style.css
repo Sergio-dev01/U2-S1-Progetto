@@ -17,7 +17,6 @@ body {
   background-color: #ffc017;
   border-bottom: 1px solid #000;
   position: fixed;
-  transition: background-color 0.5s ease, color 0.5 ease;
   z-index: 1000;
 }
 .navbar {
