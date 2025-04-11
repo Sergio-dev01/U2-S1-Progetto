@@ -36,7 +36,7 @@
           width="585"
           height="462"
           preserveAspectRatio="xMidYMid meet"
-          style="width: 26%; height: 105%; transform: translate3d(0px, 0px, 0px); content-visibility: visible"
+          style="transform: translate3d(64px, 19px, 0px); content-visibility: visible;"
         >
           <defs>
             <clipPath id="__lottie_element_3372">
@@ -8413,14 +8413,18 @@
         <script>
           const navbar = document.getElementById("change");
           const trigger = document.getElementById("trigger");
+          const button = document.querySelector(".get-started")
 
           window.addEventListener("scroll", () => {
           const triggerPosition = trigger.getBoundingClientRect().top;
 
            if (triggerPosition <= 0) {
            navbar.classList.add("light");
+           button.classList.add("green")
+
             } else {
            navbar.classList.remove("light");
+           button.classList.remove("green")
      }
 });
 

@@ -23,6 +23,8 @@ body {
   display: flex;
   gap: 24px;
   align-items: center;
+  margin-right: 63px;
+  font-family: "Spectral", serif;
 }
 
 .nav-link {
@@ -71,7 +73,8 @@ body {
   display: inline-block;
 }
 .hero svg {
-  height: 106%;
+  max-width: 100%;
+  max-height: 100%;
   position: absolute;
   right: 0;
   top: 0;
@@ -291,6 +294,9 @@ body {
 }
 .light {
   background-color: white;
+}
+.green {
+  background-color: #1a8917;
 }
 
 @media (max-width: 768px) {
